@@ -19,7 +19,7 @@ def get_version(package):
 
 
 setup(
-    name='django-graphiql-debug-toolbar',
+    name='fingo-django-graphiql-debug-toolbar',
     version=get_version('graphiql_debug_toolbar'),
     license='MIT',
     description='Django Debug Toolbar for GraphiQL IDE',
@@ -27,7 +27,7 @@ setup(
     author='mongkok',
     author_email='domake.io@gmail.com',
     maintainer='mongkok',
-    url='https://github.com/flavors/django-graphiql-debug-toolbar/',
+    url='https://github.com/diegobordeu/django-graphiql-debug-toolbar/',
     packages=find_packages(exclude=['tests*']),
     include_package_data=True,
     install_requires=[
