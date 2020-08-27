@@ -6,7 +6,6 @@ As original package had an unresolved bug regarding graphQl request been executi
 is to provide a temporal pip package with the update fix as I depend on a pip working package to handle versions
 on one of my proyect.
 As soon as the original package **Django GraphiQL Debug Toolbar** solve that bug, this package will be deleted.
-on .  
 
 
 Django GraphiQL Debug Toolbar
