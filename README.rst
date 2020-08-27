@@ -1,3 +1,14 @@
+Disclaimer
+=============================
+This package was made up from a urgent update of the original package **Django GraphiQL Debug Toolbar**
+from "pip install django-graphiql-debug-toolbar".
+As original package had an unresolved bug regarding graphQl request been executing twice, this package propose
+is to provide a temporal pip package with the update fix as I depend on a pip working package to handle versions
+on one of my proyect.
+As soon as the original package **Django GraphiQL Debug Toolbar** solve that bug, this package will be deleted.
+on .  
+
+
 Django GraphiQL Debug Toolbar
 =============================
 
@@ -26,7 +37,7 @@ Install last stable version from Pypi.
 
 .. code:: sh
 
-    pip install django-graphiql-debug-toolbar
+    pip install fingo-django-graphiql-debug-toolbar
 
 
 See the `documentation`_ for further guidance on setting *Django Debug Toolbar*.
